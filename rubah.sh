@@ -75,3 +75,8 @@ echo "Login RDP baru dengan:"
 echo "Username: $usr"
 echo "Password: $ps"
 echo "IP RDP: $ip44:$port"
+
+echo 'Kembali kemenu dalam 12 detik'
+sleep 12
+clear
+bash menu.sh
