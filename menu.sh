@@ -24,3 +24,4 @@ case "$menus" in
         ;;
         *) echo "pilihan salah"; exit;;
 esac
+clear
