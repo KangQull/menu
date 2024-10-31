@@ -7,6 +7,29 @@ read -p " Apakah kamu mau merubah configurasi Windows: " enter
 
 echo "Mematikan Windows...."
 docker compose down
+clear
+echo "**************************************"
+echo "*                                    *"
+echo "*         List Windows kode          *"
+echo "*         _________________          *"
+echo "*                                    *"
+echo "*  1.win11    6.win10e   11.winxp    *"
+echo "*  2.ltsc11   7.win8                 *"
+echo "*  3.win11e   8.win8e                *"
+echo "*  4.win10    9.win7                 *"
+echo "*  5.ltsc10   10.vista               *"
+echo "*                                    *"
+echo "*------------------------------------*"
+echo "*                                    *"
+echo "*           Windows Server           *"
+echo "*           ______________           *"
+echo "*                                    *"
+echo "*  1.2025      5.2012                *"
+echo "*  2.2022      6.2008                *"
+echo "*  3.2019      7.2003                *"
+echo "*  4.2016                            *"
+echo "*                                    *"
+echo "**************************************"
 
 read -p "Masukan Kode windows: " win
 clear
