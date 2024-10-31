@@ -16,7 +16,10 @@ read -p "Pilih menu [1]: " menus
 case "$menus" in
         1) bash menu/rubah.sh
         ;;
-        2) bash helo.sh
+        2) bash menu/matikan.sh
         ;;
+        3) bash menu/hapus.sh
+        ;;
+        4) bash menu/nyalakan.sh
         *) echo "pilihan salah"; exit;;
 esac
