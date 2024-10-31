@@ -21,5 +21,6 @@ case "$menus" in
         3) bash menu/hapus.sh
         ;;
         4) bash menu/nyalakan.sh
+        ;;
         *) echo "pilihan salah"; exit;;
 esac
