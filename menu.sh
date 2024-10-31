@@ -6,8 +6,9 @@ echo "*                                         *"
 echo "*     Daftar menu Menu yang kamu mau      *"
 echo "*     ______________________________      *"
 echo "*                                         *"
-echo "* 1) Rubah Windows    3) Hapus windows    *"
-echo "* 2) Matikan Windows  4) Nyalakan windows *"
+echo "* 1) Rubah Windows    4) Nyalakan windows *"
+echo "* 2) Matikan Windows  5) Cek logs         *"
+echo "* 3) Hapus windows                        *"
 echo "*                                         *"
 echo "*******************************************"
 
@@ -21,6 +22,8 @@ case "$menus" in
         3) bash menu/hapus.sh
         ;;
         4) bash menu/nyalakan.sh
+        ;;
+        5) bash menu/logs.sh
         ;;
         *) echo "pilihan salah"; exit;;
 esac
